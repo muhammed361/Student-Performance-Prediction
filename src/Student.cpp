@@ -13,3 +13,6 @@ void Student::displayInfo(){
     cout<<"studyHours :" <<studyHours<<endl;
     cout<<"attendence :"<<attendance<<endl;
 }
+void Student::setName(string n){
+    name =n;
+}

@@ -11,6 +11,7 @@ class Student{
     public:
     Student(string n , int h,float a);
     void displayInfo();
+    void setName(string n );
     
 };
 #endif
